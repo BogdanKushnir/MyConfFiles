@@ -1,2 +1,3 @@
 # MyConfFiles
-My configuration files for programs I use:
+**My configuration files for programs I use:**
+* Gnu Emacs 24.5+
