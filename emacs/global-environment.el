@@ -29,7 +29,7 @@
 (set-default 'truncate-lines t)
 
 (if (eq system-type 'gnu/linux)
-	(add-to-list 'default-frame-alist '(font . "Ubuntu Mono-13:Regular" ))
+	(add-to-list 'default-frame-alist '(font . "Ubuntu Mono-12:Regular" ))
 )
 (if (eq system-type 'windows-nt)
 	(set-face-attribute 'default nil :family "Consolas" :height 130)

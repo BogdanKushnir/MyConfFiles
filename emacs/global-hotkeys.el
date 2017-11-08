@@ -8,10 +8,13 @@
 
 ;;(windmove-default-keybindings 'meta)
 
-(global-set-key (kbd "s-<up>")    'windmove-up)
-(global-set-key (kbd "s-<down>")  'windmove-down)
-(global-set-key (kbd "s-<left>")  'windmove-left)
-(global-set-key (kbd "s-<right>") 'windmove-right)
+(global-unset-key (kbd "M-<left>"))
+(global-unset-key (kbd "M-<right>"))
+
+(global-set-key (kbd "M-<up>")    'windmove-up)
+(global-set-key (kbd "M-<down>")  'windmove-down)
+(global-set-key (kbd "M-<left>")  'windmove-left)
+(global-set-key (kbd "M-<right>") 'windmove-right)
 
 (global-set-key (kbd "S-s-<up>")    'enlarge-window)
 (global-set-key (kbd "S-s-<down>")  'shrink-window)
